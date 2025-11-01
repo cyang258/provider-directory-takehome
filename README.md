@@ -61,6 +61,17 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+**Updated Note: CRA is deprecated, webpack is old.**
+Node.js 17+, 18+, 20+, and now 22 use OpenSSL 3, which breaks older versions of webpack used inside react-scripts (especially CRA v4/v5). More recomanded way is to upgrade from react-scripts to Vite, but in this project to quickly fix the Node version incompatiable issue, I change the script to
+```json
+"scripts": {
+  "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+  "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+  "test": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
+  "eject": "react-scripts eject"
+}
+```
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

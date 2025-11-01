@@ -11,3 +11,310 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading-1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.heading-2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.heading-3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.heading-4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+}
+
+.heading-5 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: 0.005em;
+}
+
+.subheading-1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.005em;
+}
+
+.subheading-2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.subheading-3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.subheading-4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+}
+
+.subheading-5 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: 0.005em;
+}
+
+.body-1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+}
+
+.body-2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.body-3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.005em; 
+}
+
+.body-4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 14.8px;
+  line-height: 1.4;
+  letter-spacing: 0.005em;  
+}
+
+.body-5 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.005em; 
+}
+
+.body-6 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.005em;
+}
+
+.button-1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.button-2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em; 
+}
+
+.button-3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.button-4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.label-1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.label-2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.02em; 
+}
+
+.label-3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.01em; 
+}
+
+.label-4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 14.8px;
+  line-height: 1.2;
+  letter-spacing: 0.005em; 
+}
+
+.label-5 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+}
+
+.label-6 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: medium;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+}
+
+.input-text-1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.input-text-2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em; 
+}
+
+.input-text-3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 14.8px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;  
+}
+
+.input-text-4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.input-text-5 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.input-text-6 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+}
+
+.link-1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.link-2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.link-3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14.8px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;  
+}
+
+.link-4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.01em; 
+}
+
+.link-5 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.link-6 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
