@@ -17,7 +17,7 @@ code {
 
 .heading-1 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -25,7 +25,7 @@ code {
 
 .heading-2 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -33,7 +33,7 @@ code {
 
 .heading-3 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -41,7 +41,7 @@ code {
 
 .heading-4 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 28px;
   line-height: 1.2;
   letter-spacing: 0.005em;
@@ -49,7 +49,7 @@ code {
 
 .heading-5 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 32px;
   line-height: 1.15;
   letter-spacing: 0.005em;
@@ -57,7 +57,7 @@ code {
 
 .subheading-1 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.005em;
@@ -65,7 +65,7 @@ code {
 
 .subheading-2 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -73,7 +73,7 @@ code {
 
 .subheading-3 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -81,7 +81,7 @@ code {
 
 .subheading-4 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 28px;
   line-height: 1.2;
   letter-spacing: 0.005em;
@@ -89,7 +89,7 @@ code {
 
 .subheading-5 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 32px;
   line-height: 1.15;
   letter-spacing: 0.005em;
@@ -97,7 +97,7 @@ code {
 
 .body-1 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 10px;
   line-height: 1.25;
   letter-spacing: 0.01em;
@@ -105,7 +105,7 @@ code {
 
 .body-2 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.4;
   letter-spacing: 0.01em;
@@ -113,7 +113,7 @@ code {
 
 .body-3 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.005em; 
@@ -121,7 +121,7 @@ code {
 
 .body-4 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14.8px;
   line-height: 1.4;
   letter-spacing: 0.005em;  
@@ -129,7 +129,7 @@ code {
 
 .body-5 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
   letter-spacing: 0.005em; 
@@ -137,7 +137,7 @@ code {
 
 .body-6 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.005em;
@@ -145,7 +145,7 @@ code {
 
 .button-1 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 12px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -153,7 +153,7 @@ code {
 
 .button-2 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.02em; 
@@ -161,7 +161,7 @@ code {
 
 .button-3 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0.02em;
@@ -169,7 +169,7 @@ code {
 
 .button-4 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 18px;
   line-height: 1;
   letter-spacing: 0.02em;
@@ -177,7 +177,7 @@ code {
 
 .label-1 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 10px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -185,7 +185,7 @@ code {
 
 .label-2 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.02em; 
@@ -193,7 +193,7 @@ code {
 
 .label-3 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.01em; 
@@ -201,7 +201,7 @@ code {
 
 .label-4 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 14.8px;
   line-height: 1.2;
   letter-spacing: 0.005em; 
@@ -209,7 +209,7 @@ code {
 
 .label-5 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.005em;
@@ -217,7 +217,7 @@ code {
 
 .label-6 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: medium;
+  font-weight: 550;
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.005em;
@@ -225,7 +225,7 @@ code {
 
 .input-text-1 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -233,7 +233,7 @@ code {
 
 .input-text-2 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em; 
@@ -241,7 +241,7 @@ code {
 
 .input-text-3 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14.8px;
   line-height: 1.2;
   letter-spacing: 0.01em;  
@@ -249,7 +249,7 @@ code {
 
 .input-text-4 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -257,7 +257,7 @@ code {
 
 .input-text-5 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -265,7 +265,7 @@ code {
 
 .input-text-6 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.005em;
@@ -273,7 +273,7 @@ code {
 
 .link-1 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -281,7 +281,7 @@ code {
 
 .link-2 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -289,7 +289,7 @@ code {
 
 .link-3 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14.8px;
   line-height: 1.2;
   letter-spacing: 0.01em;  
@@ -297,7 +297,7 @@ code {
 
 .link-4 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.01em; 
@@ -305,7 +305,7 @@ code {
 
 .link-5 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -313,7 +313,7 @@ code {
 
 .link-6 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.01em;

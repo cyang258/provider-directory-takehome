@@ -28,7 +28,7 @@ export const fetchProvider = (providerId) => {
 
 /**
  * Fetch all the providers to be displayed, in a minimal representation
- * @return {Promise<Array<{id: string, name: string, title: string, avatarUrl: string, bio: string}>>>}
+ * @return {Promise<Array<{id: string, name: string, title: string, avatarUrl: string, bio: string, specialization: string}>>>}
  */
 export const fetchProviders = () => {
   return new Promise(
@@ -39,8 +39,8 @@ export const fetchProviders = () => {
   )
 };
 
-const makePartialRepresentation = ({id, name, title, avatarUrl, bio, availabilty}) => ({
-  id, name, title, avatarUrl, bio, availabilty
+const makePartialRepresentation = ({id, name, title, avatarUrl, bio, availabilty, specialization}) => ({
+  id, name, title, avatarUrl, bio, availabilty, specialization
 });
 
 const fullDataset = [
@@ -53,6 +53,7 @@ const fullDataset = [
     location: "Quebec City, Quebec",
     education: "Concordia University\n",
     languages: ["French"],
+    specialization: "Registered Social Worker",
     bio: "Caroline Champagne is a Registered Social Worker and a member of the OTSTCFQ. While in university, she had " +
       "the chance to work at the CISSS-CA for several years, taking on different mandates and working with various " +
       "clienteles. Her experiences have allowed her to develop expertise in mental health issues that range from mood" +
@@ -71,6 +72,7 @@ const fullDataset = [
     location: "Toronto, Ontario",
     education: "University of Toronto",
     languages: ["English"],
+    specialization: "Registered Clinical Counsellor",
     bio: "Tamara is a Registered Clinical Counsellor, insured to provide online counselling for anyone across Canada."
       + " She works with clients of all ages and has extensive experience with those between the ages of 18 to 35. " +
       "With over 15 years of experience in counselling and social work, Tamara is equipped to help clients living " +
@@ -85,12 +87,13 @@ const fullDataset = [
   {
     id: "3",
     name: "Francois-Pierre Decoste",
-    title: "MSW",
+    title: "MSW, RCC, RCC",
     avatarUrl: "",
     availabilty: "tomorrow",
     location: "Montreal, Quebec",
     education: "McGill",
     languages: ["English", "French"],
+    specialization: "Social Worker",
     bio: "Dynamic and easy to approach, François-Pierre Decoste is a social worker who will help you take control of " +
       "your life. He specializes in issues that affect mood (anxiety, depression, grief, burnout, posttrauma) and " +
       "the quality of your relationships (communication, couple and family issues). His approach promotes better " +
@@ -105,6 +108,7 @@ const fullDataset = [
     location: "Toronto, Ontario",
     education: "University of Toronto",
     languages: ["English"],
+    specialization: "Registered Social Worker",
     bio: "Marco is a Registered Social Worker. He has worked extensively in community mental health and has " +
       "counselled individuals experiencing depression, anxiety, bipolar disorder, schizophrenia, and borderline " +
       "personality disorder. He views therapy as a partnership and likes to work collaboratively with clients to find" +
