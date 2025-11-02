@@ -16,7 +16,7 @@ export default function ScaledImage({ src, alt, scaleSize }) {
       if (!naturalWidth) return;
 
       const ratio = currentWidth / naturalWidth;
-      const clamped = Math.min(ratio, 1.5); // cap at 1.5x
+      const clamped = Math.min(ratio, 1.5);
 
       setScale(clamped);
     };
@@ -36,7 +36,7 @@ export default function ScaledImage({ src, alt, scaleSize }) {
         transform: `scale(${scale})`,
         transformOrigin: "top center",
       }}
-      className="w-full h-full md:w-auto md:h-auto max-w-[375px] object-contain sm:object-cover object-top sm:h-auto sm:max-h-[45vh] max-h-[45vh]"
+      className="w-full h-full md:w-auto md:h-auto max-w-[495px] object-contain sm:object-cover object-top sm:h-auto sm:max-h-[45vh] max-h-[45vh] md:min-w-[289px] md:min-h-[289px]"
     />
   );
 }

@@ -13,8 +13,8 @@ const ProviderIntroductionCard = ({ name, title, specialization, bio }) => {
     }
   }, [bio, expanded]);
   return (
-    <div className="w-full max-w-[598px] h-auto bg-white shadow-sm px-[20px] pt-[10px] py-[14px] flex flex-col space-y-[12px] rounded-md">
-      <div className="flex flex-col min-w-0 space-y-[6px]">
+    <div className="w-full max-w-[598px] h-auto bg-white shadow-sm px-[32px] py-[14px] flex flex-col space-y-[12px] rounded-md">
+      <div className="flex flex-col min-w-0 space-y-[6px] pt-[10px]">
         <div className="subheading-1 text-neutral-9 truncate">
           {name}
           {title && title !== "" ? `, ${title}` : null}
@@ -24,7 +24,7 @@ const ProviderIntroductionCard = ({ name, title, specialization, bio }) => {
 
       <p
         ref={textRef}
-        className={`body-3 text-neutral-7 transition-all duration-300 ${
+        className={`body-3 text-neutral-7 transition-all duration-300 ease-in-out ${
           expanded ? "" : "line-clamp-3"
         }`}
       >
@@ -33,7 +33,7 @@ const ProviderIntroductionCard = ({ name, title, specialization, bio }) => {
 
       {(isOverflowing || expanded) && (
         <button
-          className="flex items-center gap-1.5 text-secondary-5 label-4 w-fit"
+          className="flex items-center gap-1.5 text-secondary-5 label-4 w-fit pb-[10px]"
           onClick={() => setExpanded(!expanded)}
         >
           {expanded ? "Read less" : "Read more"}

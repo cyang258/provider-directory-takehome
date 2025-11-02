@@ -11,7 +11,7 @@ export default function DirectoryPageHeader(props) {
           <div className="input-text-3 text-neutral-7">Mental Wellness</div>
         </div>
 
-        <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-neutral-0 border rounded-[94px]">
+        <div className="cursor-pointer inline-flex items-center gap-1 px-3 py-1 rounded-full bg-neutral-0 border rounded-[94px] hover:bg-neutral-2 focus:ring-2 focus:ring-[#9ab7fb] active:bg-neutral-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -22,7 +22,7 @@ export default function DirectoryPageHeader(props) {
             <circle cx="12" cy="9" r="2.5" fill="white" />
           </svg>
 
-          <span className="text-neutral-8 text-label-3">ON</span>
+          <span className="text-neutral-8 text-label-3 cursor-pointer">ON</span>
         </div>
       </div>
     </div>

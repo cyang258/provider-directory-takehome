@@ -56,7 +56,7 @@ const ProviderInformationCard = ({ location, education, languages }) => {
           </div>
         </div>
       </div>
-      <button className="w-full py-[18px] bg-thvc-purple-5 button-4 text-neutral-0 rounded-full !mt-[28px]">
+      <button className="w-full py-[18px] bg-thvc-purple-5 button-4 text-neutral-0 rounded-full !mt-[28px] hover:bg-thvc-purple-4 focus:bg-thvc-purple-4 active:bg-thvc-purple-6 transition-colors duration-300">
         Book with us
       </button>
     </div>
