@@ -37,6 +37,14 @@ module.exports = {
           red: "#D83E31",
           yellow: "#F7AE3B",
           green: "#28B058"
+        },
+        "thvc-purple": {
+          1: "#f1eff4",
+          2: "#d5cae4",
+          3: "#744ca2",
+          4: "#5a2f86",
+          5: "#45206a",
+          6: "#321a45"
         }
       }
     }

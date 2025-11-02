@@ -91,7 +91,7 @@ const fullDataset = [
     avatarUrl: "",
     availabilty: "tomorrow",
     location: "Montreal, Quebec",
-    education: "McGill",
+    education: "McGill University",
     languages: ["English", "French"],
     specialization: "Social Worker",
     bio: "Dynamic and easy to approach, François-Pierre Decoste is a social worker who will help you take control of " +

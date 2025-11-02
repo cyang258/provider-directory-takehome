@@ -26,9 +26,14 @@ export default function DirectoryPage(props) {
           providers in Ontario
         </div>
       </div>
-
       {loading ? (
-        <div>Loading...</div>
+        <div className="flex items-center justify-center mt-20">
+          <div className="flex space-x-8">
+            <div className="w-2 h-2 bg-thvc-purple-5 rounded-full animate-ping"></div>
+            <div className="w-2 h-2 bg-thvc-purple-5 rounded-full animate-ping delay-200"></div>
+            <div className="w-2 h-2 bg-thvc-purple-5 rounded-full animate-ping delay-400"></div>
+          </div>
+        </div>
       ) : (
         <DirectoryProfileCardList providers={providers} />
       )}
