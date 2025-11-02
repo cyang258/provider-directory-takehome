@@ -15,6 +15,7 @@ The considerations:
 - Updated React version as it is outdated
 - Styling framework - Tailwind + css.
 - Created responsive views
+- Updated API for missing property for provider's profession, eg. social worker. Also added demo picture to public folder, the picture source is from figma design file.
 
 ## Live Demo
 
